@@ -20,6 +20,7 @@ steps:
   - uses: dreamsofimran/elasticsearch-action@v1.2
     with:
       elasticsearch version: "7.6.1"
+      cluster name: docker-elasticsearch
       host port: 9200
       container port: 9200
       host node port: 9300
