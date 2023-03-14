@@ -17,7 +17,7 @@ steps:
       sudo sysctl -w fs.file-max=262144
       sudo sysctl -w vm.max_map_count=262144
 
-  - uses: dreamsofimran/elasticsearch-action@v1.2
+  - uses: dreamsofimran/elasticsearch-action@v1.0
     with:
       elasticsearch version: "7.6.1"
       cluster name: docker-elasticsearch
